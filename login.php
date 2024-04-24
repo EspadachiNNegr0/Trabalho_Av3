@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $senha = mysqli_real_escape_string($conn, $senha);
 
   // Cria a consulta SQL para verificar se o email e a senha são válidos
-  $sql = "SELECT * FROM usuarios WHERE email='$email' AND senha='$senha'";
+  $sql = "SELECT * FROM usuario WHERE email='$email' AND senha='$senha'";
 
   // Executa a consulta SQL
   $result = $conn->query($sql);
@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   // Verifica se o resultado da consulta tem pelo menos uma linha
   if ($result->num_rows > 0) {
     // Se o login for bem-sucedido, redireciona o usuário para a página principal
-    header("Location: principal.html");
+    header("Location: indexPrincipal.html");
     exit;
   } else {
     // Se o login falhar, exibe uma mensagem de erro

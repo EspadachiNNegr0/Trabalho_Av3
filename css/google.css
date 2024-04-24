@@ -1,0 +1,314 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  /* background-color: whitesmoke; */
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  /* color: black; */
+}
+
+/* a:hover{
+     text-decoration: underline;
+ } */
+
+/* Google icons CSS is declared here but we already uploaded css via link sheet */
+/* fallback */
+@font-face {
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v121/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2)
+    format("woff2");
+}
+
+.material-icons {
+  cursor: pointer;
+  /* border-radius: 10px; */
+  padding: 8px;
+  color: rgb(114, 108, 108);
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  /* -webkit-font-feature-settings: 'liga'; */
+  /* -webkit-font-smoothing: antialiased; */
+}
+
+.material-icons:hover {
+  /* border: 1px solid rgb(228, 216, 216); */
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(236, 235, 235);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin:10px 20px;
+      margin-left: 50px; */
+  padding: 20px 30px;
+}
+
+.header a {
+  color: rgba(104, 97, 97, 0.8);
+  /* color: black; */
+  text-decoration: inherit;
+  font-size: 16px;
+  /* padding: 5px; */
+  margin-right: 20px;
+}
+.header a:hover {
+  text-decoration: underline;
+  border: 1px;
+  border-radius: 10px;
+}
+.header .left-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 30px;
+  /* margin: 0px 0px; */
+  /* padding: 0px 0px; */
+}
+.header .left-header .hamburger {
+  visibility: hidden;
+}
+.header .right-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 0px;
+  /* padding: 0px 0px; */
+}
+
+.right-header img {
+  /* border: 1px solid black; */
+  height: 28px;
+  border-radius: 16px;
+}
+
+.google {
+  text-align: center;
+  margin: 60px 0 15px 0;
+  font-size: 80px;
+  font-weight: bold;
+  /* font-family: arial,sans-serif; */
+}
+
+/*
+ span:nth-child(1){
+    color: green;
+}
+
+span:nth-child(2){
+    color: red;
+}
+span:nth-child(3){
+    color: rgb(252, 164, 1);
+}
+span:nth-child(4){
+    color: blue;
+}
+span:nth-child(5){
+    color: green;
+}
+span:nth-child(6){
+    color: red;
+} */
+
+/* .search {
+    border: 2px solid orange;
+} */
+
+.searchinput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex: 100%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 100%; */
+  height: 25px;
+  padding: 10px 10px;
+  margin: 10px auto 35px auto;
+  /* width: 600px; */
+  /* min-width:50vw; */
+  max-width: 584px;
+  border: 1px solid #dfe1e5;
+  /* border: 2px solid black; */
+  border-radius: 25px;
+}
+.searchinput:hover {
+  /* border: 1px solid grey; */
+  box-shadow: 1px 1px 5px grey;
+}
+
+.searchinput input {
+  flex: 1;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+.material-icons-search {
+  cursor: pointer;
+  color: black;
+  /* border-radius: 10px; */
+  padding: 5px;
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 25px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  /* -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased; */
+}
+
+.material-icons-search:nth-child(1) {
+padding-right: 15px;
+}
+
+.searchbtn {
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.searchbtn a{
+  /* cursor: pointer; */
+  background-color: #f8f8f8;
+  color: rgb(104, 100, 100);
+  font-size: 15px;
+  padding: 10px 15px;
+  margin: auto 15px;
+}
+
+.searchbtn a:hover {
+  border: 1px solid rgb(214, 207, 207);
+  border-radius: 6px;
+}
+
+.language {
+  text-align: center;
+  margin: 30px;
+  font-size: 15px;
+}
+.language a {
+  margin:5px;
+  color: #554caf;
+}
+.language a:hover {
+  text-decoration: underline;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #f8f8f8;
+}
+.bottomfooter {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap:wrap-reverse;
+  /* border: 1px solid grey; */
+  /* font-weight: 500; */
+}
+
+#bottom {
+  border-top: 1px solid rgb(223, 220, 220);
+  height: 50px;
+  text-align: center;
+  padding-top:5px;
+  color: rgba(104, 97, 97, 0.8);
+  font-family: none;
+}
+
+#bottom a {
+  color: rgb(178, 111, 241);
+}
+#bottom a:hover {
+  text-decoration: underline;
+}
+
+                                                                  /* CSS Media Query File is Start Here */
+@media only screen and (max-width: 600px) {
+
+  .header .left-header a {
+    display: none;
+  }
+  .header .left-header .hamburger {
+    /* display: block; */
+    visibility: visible;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+  }
+  .header .right-header {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+  }
+  .google {
+    font-size: 60px;
+   margin: 10px;
+  }
+  .searchinput {
+    max-width: 350px;
+    height: 20px;
+  }
+  .searchbtn a {
+    font-size: 14px;
+    padding: 8px 12px;
+    margin: 8px;
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+  .bottomfooter{
+   /* height: 50px; */
+   line-height:20px;
+  padding:5px 0 5px 15px;
+  }
+  .bottomfooter a{
+    font-size:small;
+  }
+  /* .bottomfooter a:nth-child(4){
+    margin-left:40px;
+  } */
+  #bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:2px 0 ;
+    font-size:small ;
+  }
+  br{
+    display: none;
+  }
+}
