@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("/images/blackgraund.jpg") no-repeat center;
+    background: url("/images/blackgraund.svg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -201,6 +201,9 @@ section .title::after{
 .home .home-content .text-3 span{
     color: crimson;
     font-weight: 500;
+}
+.home .home-content .text-4{
+    font-size: 15px;
 }
 .home .home-content a{
     display: inline-block;
@@ -282,6 +285,7 @@ section .title::after{
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
+    height: 331px;
     background: #222;
     text-align: center;
     border-radius: 6px;
