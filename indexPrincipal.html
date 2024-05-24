@@ -1,48 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google</title>
-    <meta name="keywords" content="keywords about the website and page is to be declared here">
-    <meta name="description" content="description about the website and page is to be declared here">
-    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/2/2d/Google-favicon-2015.png" type="image/x-icon">
-    <!-- External CSS File -->
-    <link rel="stylesheet" href="./css/google.css">
-    <!-- External JavaScript File -->
-    <script src="script.js" defer></script>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/google.css">
+    <title>Guugli</title>
 </head>
 <body>
-    <header>
-        <div class="header">
-            <div class="left-header">
-                <span class="material-icons hamburger">menu</span>
-                <a href="https://about.google/?utm_source=google-IN&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a>
-                <a href="https://store.google.com/in/?hl=en-GB">Store</a>
+    <section>
+        <header>
+            <ul>
+                <li><a href="#">Gmail</a></li>
+                <li><a href="#">Imagens</a></li>
+                <li><a href="#"><img src="img/bars.png" alt=""></a></li>
+                <button>Fazer login</button>
+            </ul>
+        </header>
+        <main class="main">
+            <img src="img/google.png" alt="google">
+            <div class="searchBox">
+                <input type="text" class="search">
+                <div class="icons">
+                    <div><img src="img/search.png" alt=""></div>
+                    <div><img src="img/mic.png" alt=""></div>
+                </div>
             </div>
-            <div class="right-header">
-              <a href="https://mail.google.com/mail/u/0/#inbox">Gmail</a>
-              <a href="https://www.google.co.in/imghp?hl=en&ogbl">Images</a>
-          </div>
-        </div>
-    </header>
-    <div class="google">
-        <span style="color: rgb(177, 177, 177); font-size: 1.3em;">G</span><span style="color: rgb(177, 177, 177)">u</span><span style="color: rgb(177, 177, 177)">u</span><span style="color: crimson">g</span><span style="color: crimson">l</span><span style="color: crimson">i</span><span style="color:crimson;">.</span>
-    </div>
-    <div class="search">
-        <form action="https://www.google.com/search" class="searchinput" autocomplete="off" method="GET">
-            <span class="material-icons-search">
-                <a href="#">search</a>
-            </span>
-            <input type="text" name="q" id="search" placeholder="Search here..."/>
-            <span class="material-icons-search">
-                <a href="#">mic</a>
-            </span>
-        </form>
-    </div>
-    <div class="searchbtn">
-        <a href="https://www.google.com">Search</a>
-    </div>
+            <div class="button">
+                <button class="btn">Search</button>
+            </div>
+            <div class="text">
+                <a href="#">Jornada pela história da Pesquisa Guugli</a>
+                desde o primeiro Doodle e muito mais!
+            </div>
+        </main>
+        <footer>
+            <div class="line line1">
+                <p class="line_top">Brasil</p>
+            </div>
+            <div class="line line2">
+                <ul>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Publicidade</a></li>
+                    <li><a href="#">Negócios</a></li>
+                    <li><a href="#">Como funciona a Pesquisa</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Privacidade</a></li>
+                    <li><a href="#">Termos</a></li>
+                    <li><a href="#">Configurações</a></li>
+                </ul>
+            </div>
+        </footer>
+    </section>
+    <script src="/js/index.js"></script>
 </body>
 </html>
