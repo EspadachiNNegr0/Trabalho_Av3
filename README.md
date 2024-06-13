@@ -14,7 +14,7 @@ Especificação e Documentação da AV3
 | 15/04/2024 | 1.1        | Ajustes ortográficos e nos requisitos                      | Leonardo       |
 | 20/04/2024 | 2.0        | Atualização para atender os requisitos da segunda entrega  | Leonardo       |
 | 19/05/2024 | 3.0        | Atualização para atender os requisitos da terceira entrega | Jadson Barbosa |
-| 02/06/2024 | 4.0        | Correções e versão final da documentação                   | Matheus        |
+| 02/06/2024 | 4.0        | Correções e versão final da documentação                   | Matheus Luiz   |
 
 ### &#x20;<a href="#id-1094t7x7u4dj" id="id-1094t7x7u4dj"></a>
 
@@ -257,12 +257,14 @@ Foi realizada as seguintes tarefas:
 
 * Elaborar o código do back-end
 * Elaborar código do front-end
+* Testes e verificações
 
 **Entrega:**
 
 Foi realizada as seguintes tarefas:
 
 * Receber o feedback do produto de software
+* Manter o suporte do software
 
 ### 2.2 Estrutura da metodologia ágil <a href="#ra8rqboehfbw" id="ra8rqboehfbw"></a>
 
@@ -276,25 +278,22 @@ Foi utilizada práticas da metodologia ágil SCRUM, como a definição dos papé
 | Leonardo Calheira Marchesini                   |
 | Matheus Luiz Rodrigues da Silva                |
 
-Foram criados três times de desenvolvimento para atender necessidades específicas, uma para o back-end, uma para o front-end e outra para o banco de dados.
+Foram criados dois times de desenvolvimento para atender necessidades específicas, uma para o back-end, uma para o front-end. 
 
 | **Time de desenvolvimento - Front-end** |
 | --------------------------------------- |
 | Allan Oliveira Teran Jaime              |
 | Amanda Márcia Sales da Silva            |
 | Pedro Vinicius Monte dos Reis           |
+| Marx Lenin Muniz Vigas                  |
 
 | **Time de desenvolvimento - Back-end**           |
 | ------------------------------------------------ |
 | Eduardo Santos Gomes Ferreira / **Scrum master** |
 | Ian Davi Menezes Alves Bomfim                    |
 | Caique Cézar Costa Santos                        |
-
-| **Time de desenvolvimento - Banco de dados** |
-| -------------------------------------------- |
-| Emerson de Aquino Souza Amorim Santos        |
-| Marx Lenin Muniz Vigas                       |
-| Erick De Jesus Santana                       |
+| Emerson de Aquino Souza Amorim Santos            |
+| Erick De Jesus Santana                           |
 
 ### 2.2.2 Backlog do produto <a href="#id-7nmtk6orf6cq" id="id-7nmtk6orf6cq"></a>
 
