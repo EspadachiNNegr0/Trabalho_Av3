@@ -136,7 +136,7 @@ Esta documentação fornecerá uma visão geral de toda especificação de requi
 
 ### 1.1.1 Objetivo
 
-A finalidade da especificação de requisitos de software é de descrever totalmente o comportamento da aplicação, descrevendo os requisitos funcionais e não funcionais.
+Desenvolver uma plataforma de busca especializada em ferramentas de desenvolvimento de software, facilitando a descoberta e o acesso a recursos essenciais para desenvolvedores.
 
 ### 1.1.2 Escopo
 
