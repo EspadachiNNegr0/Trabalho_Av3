@@ -14,7 +14,7 @@ Especificação e Documentação da AV3
 | 15/04/2024 | 1.1        | Ajustes ortográficos e nos requisitos                      | Leonardo       |
 | 20/04/2024 | 2.0        | Atualização para atender os requisitos da segunda entrega  | Leonardo       |
 | 19/05/2024 | 3.0        | Atualização para atender os requisitos da terceira entrega | Jadson Barbosa |
-| 02/06/2024 | 4.0        | Correções e versão final da documentação                   | Jadson Barbosa |
+| 02/06/2024 | 4.0        | Correções e versão final da documentação                   | Matheus        |
 
 ### &#x20;<a href="#id-1094t7x7u4dj" id="id-1094t7x7u4dj"></a>
 
@@ -31,6 +31,7 @@ Especificação e Documentação da AV3
 * Ian Davi Menezes Alves Bomfim – 12723134435
 * Pedro Vinicius Monte dos Reis – 12723110509
 * Allan Oliveira Teran Jaime – 12723134433
+* Matheus Luiz Rodrigues da Silva - 12723129281
 
 ### **Tabela de Conteúdo**
 
@@ -273,6 +274,7 @@ Foi utilizada práticas da metodologia ágil SCRUM, como a definição dos papé
 | ---------------------------------------------- |
 | Jadson Mendes Barbosa / **Gerente de produto** |
 | Leonardo Calheira Marchesini                   |
+| Matheus Luiz Rodrigues da Silva                |
 
 Foram criados três times de desenvolvimento para atender necessidades específicas, uma para o back-end, uma para o front-end e outra para o banco de dados.
 
