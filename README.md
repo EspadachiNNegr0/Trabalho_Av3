@@ -11,9 +11,10 @@ Especificação e Documentação da AV3
 | **Data**   | **Versão** | **Descrição**                                              | **Autor**      |
 | ---------- | ---------- | ---------------------------------------------------------- | -------------- |
 | 10/04/2024 | 1.0        | Versão inicial                                             | Jadson Barbosa |
-| 15/04/2024 | 1.1        | Ajustes ortográficos e nos requisitos                      | Jadson Barbosa |
-| 20/04/2024 | 2.0        | Atualização para atender os requisitos da segunda entrega  | Jadson Barbosa |
+| 15/04/2024 | 1.1        | Ajustes ortográficos e nos requisitos                      | Leonardo       |
+| 20/04/2024 | 2.0        | Atualização para atender os requisitos da segunda entrega  | Leonardo       |
 | 19/05/2024 | 3.0        | Atualização para atender os requisitos da terceira entrega | Jadson Barbosa |
+| 02/06/2024 | 4.0        | Correções e versão final da documentação                   | Jadson Barbosa |
 
 ### &#x20;<a href="#id-1094t7x7u4dj" id="id-1094t7x7u4dj"></a>
 
@@ -37,7 +38,7 @@ Especificação e Documentação da AV3
 
 1.1 Introdução
 
-1.1.1 Finalidade
+1.1.1 Objetivo
 
 1.1.2 Escopo
 
@@ -52,22 +53,6 @@ Especificação e Documentação da AV3
 1.2.4 RF004
 
 1.2.5 RF005
-
-1.2.6 RF006
-
-1.2.7 RF007
-
-1.2.8 RF008
-
-1.2.9 RF009
-
-1.2.10 RF010
-
-1.2.11 RF011
-
-1.2.12 RF012
-
-1.2.13 RF013
 
 1.3 Requisitos Não Funcionais
 
@@ -149,7 +134,7 @@ Especificação e Documentação da AV3
 
 Esta documentação fornecerá uma visão geral de toda especificação de requisitos de software, finalidade e escopo do software que será desenvolvido, assim como o modelo de processos de software, metodologia ágil e a ferramenta de controle de versão.
 
-### 1.1.1 Finalidade
+### 1.1.1 Objetivo
 
 A finalidade da especificação de requisitos de software é de descrever totalmente o comportamento da aplicação, descrevendo os requisitos funcionais e não funcionais.
 
@@ -165,17 +150,9 @@ Essa será uma aplicação com o objetivo de permitir a busca das principais fer
 
 1.2.3 RF003 - Cada card de ferramenta redireccionará para o site da ferramenta.
 
-1.2.4 RF004 -
+1.2.4 RF004 - O sistema deve apresentar um formulário para contato.
 
-1.2.5 RF005 -
-
-1.2.6 RF006 -
-
-1.2.7 RF007 -
-
-1.2.8 RF008 -
-
-1.2.9 RF009 -
+1.2.5 RF005 - Página inicial com exemplos de ferramentas conhecidas no mercado de engenharia de software.
 
 ### 1.3 Requisitos não funcionais
 
@@ -255,7 +232,7 @@ Detalhamento das fases:
 
 **Comunicação:**
 
-Será realizado as seguintes tarefas:
+Foi realizada uma reunião com os integrantes do grupo para definir as seguintes tarefas:
 
 * Levantamento de requisitos
 * Escolha do ciclo de vida
@@ -263,32 +240,32 @@ Será realizado as seguintes tarefas:
 
 **Planejamento:**
 
-Será realizado as seguintes tarefas:
+Foi realizada a seguinte tarefa:
 
-* Definir metas e estimativas
+* Definir metas e estimativas de entrega.
 
 **Modelagem:**
 
-Será realizado as seguintes tarefas:
+Foi realizada as seguintes tarefas:
 
 * Protótipo do do design do site
 
 **Construção:**
 
-Será realizado as seguintes tarefas:
+Foi realizada as seguintes tarefas:
 
 * Elaborar o código do back-end
 * Elaborar código do front-end
 
 **Entrega:**
 
-Será realizado as seguintes tarefas:
+Foi realizada as seguintes tarefas:
 
 * Receber o feedback do produto de software
 
 ### 2.2 Estrutura da metodologia ágil <a href="#ra8rqboehfbw" id="ra8rqboehfbw"></a>
 
-O SCRUM foi a metodologia ágil selecionada.
+Foi utilizada práticas da metodologia ágil SCRUM, como a definição dos papéis dos integrantes da equipe e o estabelecimento de um backlog do produto.
 
 ### 2.2.1 Papéis dos participantes <a href="#w967zqhr3afw" id="w967zqhr3afw"></a>
 
@@ -377,7 +354,7 @@ Foram realizados testes de performance em três sites, sendo eles GTmatrix, Debu
 
 ### 4.2 Teste de caixa branca <a href="#hrc0vcvboy74" id="hrc0vcvboy74"></a>
 
-Para o teste de caixa branca foi o utilizado o Jest, cuja a função está ligada aos testes unitários
+Para o teste de caixa branca foi utilizado o Jest, cuja função está ligada aos testes unitários. Servindo para testar cada componente do código de forma isolada.
 
 ### 4.2.1 Jest <a href="#id-8jfehqd35of4" id="id-8jfehqd35of4"></a>
 
